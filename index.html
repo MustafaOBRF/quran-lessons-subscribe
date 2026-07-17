@@ -52,8 +52,14 @@
     font-size: 0.95rem;
     line-height: 1.8;
     opacity: 0.85;
-    margin: 0 0 24px;
+    margin: 0 0 16px;
   }
+  p.browse {
+    margin: 0 0 24px;
+    font-size: 0.95rem;
+  }
+  p.browse a { color: var(--accent); font-weight: bold; text-decoration: none; }
+  p.browse a:hover { text-decoration: underline; }
   label {
     display: block;
     text-align: right;
@@ -104,6 +110,7 @@
       اشترك لتصلك يوميًا رسالة تحتوي على درس قرآني قصير: الآيات، شرح مختصر،
       حديث نبوي، قصة للأطفال، وحقيقة تاريخية ممتعة.
     </p>
+    <p class="browse"><a href="./lessons/">📖 تصفّح الدروس السابقة</a></p>
     <form id="subscribe-form">
       <label for="name">الاسم</label>
       <input type="text" id="name" name="name" required>
